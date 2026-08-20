@@ -94,8 +94,8 @@ jobs:
         CHECKIN_HEADLESS: false
         CHECKIN_HUMANIZE: true
         CHECKIN_WAIT_TIMEOUT_MS: 120000
-        ANYROUTER_ACCOUNTS: ${{ secrets.ANYROUTER_ACCOUNTS }}
-        PROVIDERS: ${{ secrets.PROVIDERS }}
+        ANYROUTER_ACCOUNTS: ${{ vars.ANYROUTER_ACCOUNTS }}
+        PROVIDERS: ${{ vars.PROVIDERS }}
         DINGDING_WEBHOOK: ${{ secrets.DINGDING_WEBHOOK }}
         EMAIL_USER: ${{ secrets.EMAIL_USER }}
         EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
